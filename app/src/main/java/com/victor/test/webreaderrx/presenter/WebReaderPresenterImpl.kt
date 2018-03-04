@@ -109,7 +109,6 @@ class WebReaderPresenterImpl(context: Context): WebReaderPresenter {
 
             if (contentArray.isNotEmpty()) {
                 (1..contentArray.size step 10).forEach {
-//                    emitter.onNext(Pair(Constants.EVERY_10TH_CHARACTER_OBS, contentArray[it].toString()))
                     processedContent.append(contentArray[it].toString())
                 }
             }
