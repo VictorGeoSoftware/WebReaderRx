@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WebReaderRx</string>
+    <string name="title">Tap on Play button for start all process</string>
+    <string name="tenth_character">Tenth character is %1$s</string>
+    <string name="total_words_counted">Total words counted is %1$s</string>
+    <string name="each_ten_read_characters">Each ten read characters</string>
 </resources>

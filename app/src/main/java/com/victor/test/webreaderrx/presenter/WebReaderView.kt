@@ -5,7 +5,9 @@ package com.victor.test.webreaderrx.presenter
  * ${APP_NAME}
  */
 interface WebReaderView {
+    fun showProgressBar()
     fun onFirstTenthCharacterRead(tenthChar:String)
     fun onNewTenthCharacterRead(tenthChar:String)
     fun onWordCounterUpdated(tenthChar:String)
+    fun hideProgressBar()
 }

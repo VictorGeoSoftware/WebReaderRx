@@ -6,7 +6,6 @@ package com.victor.test.webreaderrx.presenter
  */
 interface WebReaderPresenter {
     fun setView(webReaderView: WebReaderView)
-    fun trueCaller10thCharacterRequest()
-    fun trueCallerEvery10thCharacterRequest()
-    fun trueCallerWordCounterRequest()
+    fun performTrueCallerProcess()
+    fun onDestroy()
 }
